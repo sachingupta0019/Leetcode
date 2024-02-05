@@ -1,5 +1,7 @@
-function createHelloWorld() {
-    return function (..._): string {
-      return 'Hello World';
-    };
-  }
+function createHelloWorld() 
+{
+  return function() 
+    {
+       return "Hello World" 
+    }
+}
